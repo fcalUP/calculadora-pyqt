@@ -1,0 +1,12 @@
+# Archivos compilados de Python (no sirven en otros PC)
+__pycache__/
+*.py[cod]
+
+# Entornos virtuales (pesan mucho y se recrean)
+venv/
+env/
+.env
+
+# Configuraciones de editores (opcional)
+.vscode/
+.idea/
