@@ -11,3 +11,7 @@ elif personas > 2 and cuenta > 500:
   propina = float(input("Cuanto van a dejar de propina?\n 10, 15 o 20%"))
   cuentaPersonal = (cuenta/personas) *(1-(propina/100))
   print(f"Cada persona debe pagar: {cuentaPersonal}")
+else:
+  propina = float(input("Cuanto van a dejar de propina?\n 10, 15 o 20%"))
+  cuentaPersonal = (cuenta/personas) *(1-(propina/100))
+  print(f"Cada persona debe pagar: {cuentaPersonal}")
